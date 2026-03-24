@@ -8,7 +8,7 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="h-96 lg:h-auto relative">
               <img 
-                src="https://picsum.photos/id/64/800/1200" 
+                src="/img1.jpeg" 
                 alt="Dra. Juliana Mendes" 
                 className="w-full h-full object-cover"
               />

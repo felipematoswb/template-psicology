@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigateToAbout }) => {
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 mt-8 max-w-lg">
               <div className="flex items-center gap-4 mb-4">
                 <div className="h-12 w-12 rounded-full bg-sage-200 overflow-hidden">
-                  <img src="https://picsum.photos/id/64/200/200" alt="Dra. Avatar" className="h-full w-full object-cover" />
+                  <img src="/img2.jpeg" alt="Dra. Avatar" className="h-full w-full object-cover" />
                 </div>
                 <div>
                   <h3 className="font-serif text-lg font-semibold text-stone-800">Dra. Juliana Mendes</h3>
@@ -53,7 +53,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigateToAbout }) => {
             
             <div className="relative rounded-[2rem] overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-700">
               <img 
-                src="https://picsum.photos/id/12/800/1000" 
+                src="/img3.jpeg" 
                 alt="Ambiente de terapia sereno" 
                 className="w-full h-[500px] object-cover"
               />

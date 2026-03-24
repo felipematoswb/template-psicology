@@ -6,7 +6,7 @@ export const SERVICES: ServiceData[] = [
     title: 'Psicoterapia Individual',
     shortDescription: 'Um espaço seguro para autoconhecimento e transformação pessoal, focado nas suas necessidades únicas.',
     iconName: 'Brain',
-    image: 'https://picsum.photos/id/102/800/600',
+    image: '/img1.jpeg',
     fullContent: [
       'A psicoterapia individual é um processo colaborativo entre o psicólogo e o paciente, destinado a promover o autoconhecimento e a saúde mental. Neste espaço seguro e livre de julgamentos, trabalhamos juntos para compreender as raízes de seus comportamentos, emoções e pensamentos. É um momento dedicado exclusivamente a você, onde suas angústias podem ser acolhidas e transformadas em ferramentas de crescimento.',
       'Durante as sessões, utilizamos abordagens baseadas em evidências para identificar padrões que podem estar limitando seu potencial ou causando sofrimento. Não se trata apenas de resolver problemas imediatos, mas de desenvolver uma estrutura emocional resiliente que permita enfrentar os desafios futuros com mais clareza e autonomia. O objetivo é que você se torne o protagonista da sua própria história.',
@@ -19,7 +19,7 @@ export const SERVICES: ServiceData[] = [
     title: 'Depressão',
     shortDescription: 'Acolhimento e tratamento especializado para reencontrar o prazer e o sentido na vida.',
     iconName: 'CloudRain',
-    image: 'https://picsum.photos/id/1048/800/600',
+    image: '/img2.jpeg',
     fullContent: [
       'A depressão é muito mais do que apenas sentir-se triste; é uma condição clínica que afeta profundamente a maneira como você sente, pensa e lida com as atividades diárias. O tratamento psicológico oferece um suporte fundamental para compreender os gatilhos emocionais e biológicos dessa condição, proporcionando um caminho estruturado para a recuperação do bem-estar e da vitalidade.',
       'No processo terapêutico, trabalhamos para desconstruir pensamentos negativos automáticos e crenças limitantes que alimentam o ciclo depressivo. Através de técnicas cognitivas e comportamentais, ajudamos o paciente a reativar comportamentos saudáveis e a reencontrar prazer em pequenas atividades do dia a dia, que muitas vezes perdem o sentido durante os episódios depressivos.',
@@ -32,7 +32,7 @@ export const SERVICES: ServiceData[] = [
     title: 'Ansiedade',
     shortDescription: 'Aprenda a gerenciar a ansiedade e conquiste uma mente mais tranquila e presente.',
     iconName: 'Wind',
-    image: 'https://picsum.photos/id/196/800/600',
+    image: '/img3.jpeg',
     fullContent: [
       'A ansiedade é uma reação natural do corpo ao estresse, mas quando se torna excessiva e persistente, pode interferir drasticamente na qualidade de vida. O tratamento psicológico foca em identificar as causas da ansiedade e ensinar técnicas práticas de regulação emocional, permitindo que você retome o controle sobre sua mente e suas reações físicas.',
       'Muitas vezes, a ansiedade vive no futuro, alimentando-se de preocupações com o "e se". Na terapia, trabalhamos o conceito de atenção plena e estratégias de ancoragem no presente. Isso ajuda a reduzir a taquicardia, a tensão muscular e os pensamentos acelerados, promovendo um estado de calma e clareza mental necessário para a tomada de decisões.',
@@ -45,7 +45,7 @@ export const SERVICES: ServiceData[] = [
     title: 'Autoestima',
     shortDescription: 'Fortaleça sua autoconfiança e aprenda a se olhar com mais carinho e respeito.',
     iconName: 'Heart',
-    image: 'https://picsum.photos/id/349/800/600',
+    image: '/img1.jpeg',
     fullContent: [
       'A autoestima é o sistema imunológico da nossa consciência; é a forma como nos vemos, nos avaliamos e nos tratamos. Quando ela está fragilizada, tudo parece mais difícil, e as críticas externas (e internas) ganham um peso desproporcional. A terapia trabalha na reconstrução dessa autoimagem, promovendo um olhar mais gentil e realista sobre si mesmo.',
       'Muitas questões de autoestima têm raízes profundas na infância ou em experiências passadas de rejeição e fracasso. No consultório, revisitamos essas narrativas para curar feridas antigas e construir uma nova identidade baseada em suas forças e virtudes reais, não apenas em suas falhas ou na opinião alheia.',
@@ -58,7 +58,7 @@ export const SERVICES: ServiceData[] = [
     title: 'Transtornos Alimentares',
     shortDescription: 'Uma abordagem cuidadosa para reestabelecer uma relação saudável com a comida e o corpo.',
     iconName: 'Utensils',
-    image: 'https://picsum.photos/id/493/800/600',
+    image: '/img2.jpeg',
     fullContent: [
       'Os transtornos alimentares são condições complexas que envolvem a relação com a comida e a imagem corporal. O tratamento psicológico é essencial para quebrar o ciclo de compulsão, restrição ou purgação, oferecendo um espaço de escuta livre de julgamentos sobre o corpo e a alimentação.',
       'Nossa abordagem busca entender as funções emocionais que a comida desempenha na sua vida. Muitas vezes, o comportamento alimentar é apenas a ponta do iceberg de questões emocionais mais profundas, como necessidade de controle, ansiedade ou traumas. Trabalhamos para dissociar o valor pessoal da forma física.',
@@ -71,7 +71,7 @@ export const SERVICES: ServiceData[] = [
     title: 'Relacionamentos',
     shortDescription: 'Melhore sua comunicação e construa vínculos mais saudáveis e satisfatórios.',
     iconName: 'Users',
-    image: 'https://picsum.photos/id/668/800/600',
+    image: '/img3.jpeg',
     fullContent: [
       'Nossos relacionamentos são espelhos de nosso mundo interno e fontes fundamentais de felicidade ou angústia. A terapia focada em relacionamentos ajuda a identificar padrões de comportamento repetitivos que podem estar gerando conflitos, distanciamento ou dependência emocional com parceiros, familiares ou amigos.',
       'A comunicação é a chave para qualquer vínculo saudável. No processo terapêutico, desenvolvemos habilidades de assertividade e escuta ativa, permitindo que você expresse suas necessidades e limites de forma clara e respeitosa, ao mesmo tempo em que compreende o universo do outro sem perder a si mesmo.',

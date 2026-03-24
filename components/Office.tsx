@@ -13,13 +13,13 @@ const Office: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
-            <img src="https://picsum.photos/id/42/800/600" alt="Sala de espera" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+            <img src="/img1.jpeg" alt="Sala de espera" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
           </div>
           <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
-            <img src="https://picsum.photos/id/364/800/600" alt="Sala de atendimento" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+            <img src="/img2.jpeg" alt="Sala de atendimento" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
           </div>
           <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
-            <img src="https://picsum.photos/id/201/800/600" alt="Detalhes do consultório" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+            <img src="/img3.jpeg" alt="Detalhes do consultório" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
           </div>
         </div>
 

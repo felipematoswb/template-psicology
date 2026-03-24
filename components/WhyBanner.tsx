@@ -9,7 +9,7 @@ const WhyBanner: React.FC<WhyBannerProps> = ({ onSchedule }) => {
     <section className="relative py-24 overflow-hidden">
       <div className="absolute inset-0">
         <img 
-          src="https://picsum.photos/id/28/1920/800" 
+          src="/img1.jpeg" 
           alt="Nature background" 
           className="w-full h-full object-cover"
         />

@@ -14,7 +14,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigateToAbout }) => {
           {/* Text Content */}
           <div className="order-2 lg:order-1 space-y-8 animate-fade-in-up">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-stone-800 leading-tight">
-              Encontre o equilíbrio emocional para viver com <span className="text-sage-600 italic">leveza</span>.
+              Ressignifique sua história com uma psicologia ética, humana e atenta ao seu <span className="text-sage-600 italic">contexto social</span>.
             </h1>
             <p className="text-lg md:text-xl text-stone-600 font-light leading-relaxed max-w-lg">
               A psicoterapia é um caminho de reencontro consigo mesmo. 
@@ -29,12 +29,12 @@ const Hero: React.FC<HeroProps> = ({ onNavigateToAbout }) => {
                   <img src="/img2.jpeg" alt="Dra. Avatar" className="h-full w-full object-cover" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-lg font-semibold text-stone-800">Dra. Juliana Mendes</h3>
-                  <p className="text-xs text-sage-600 uppercase tracking-wider font-semibold">Psicóloga Clínica - CRP 06/12345</p>
+                  <h3 className="font-serif text-lg font-semibold text-stone-800">Psicóloga Gabriely Feitosa</h3>
+                  <p className="text-xs text-sage-600 uppercase tracking-wider font-semibold">Psicóloga Clínica - CRP 05/83811</p>
                 </div>
               </div>
               <p className="text-stone-600 text-sm mb-4 leading-relaxed">
-                Com mais de 10 anos de experiência clínica, dedico minha carreira a ajudar pessoas a superarem traumas, ansiedade e depressão. Acredito na terapia como uma ferramenta libertadora.
+                Psicóloga especializada em transtornos alimentares e saúde mental, com uma abordagem fundamentada nas Terapias Contextuais e na Psicologia Social Crítica. Aqui para te acompanhar no resgate da sua liberdade.
               </p>
               <button 
                 onClick={onNavigateToAbout}

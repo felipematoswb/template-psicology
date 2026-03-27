@@ -62,7 +62,7 @@ const Header: React.FC<HeaderProps> = ({ currentView, onChangeView, onSelectServ
               <button 
                 className={`flex items-center gap-1 ${currentView === 'service-detail' ? 'text-sage-600 font-semibold' : 'text-stone-500'} hover:text-sage-600 transition-colors group-hover:text-sage-600`}
               >
-                Como posso ajudar? <ChevronDown className="w-4 h-4" />
+                O que podemos trabalhar no nosso espaço de cuidado? <ChevronDown className="w-4 h-4" />
               </button>
               <div className="absolute left-0 mt-2 w-56 bg-white rounded-md shadow-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left border border-stone-100">
                 {SERVICES.map((service) => (
@@ -82,12 +82,6 @@ const Header: React.FC<HeaderProps> = ({ currentView, onChangeView, onSelectServ
               className={`${currentView === 'faq' ? 'text-sage-600 font-semibold' : 'text-stone-500'} hover:text-sage-600 transition-colors`}
             >
               Dúvidas
-            </button>
-            <button 
-              onClick={() => handleNav('office')} 
-              className={`${currentView === 'office' ? 'text-sage-600 font-semibold' : 'text-stone-500'} hover:text-sage-600 transition-colors`}
-            >
-              Consultório
             </button>
             <button 
               onClick={() => handleNav('contact')} 
@@ -118,7 +112,7 @@ const Header: React.FC<HeaderProps> = ({ currentView, onChangeView, onSelectServ
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
                 className="flex items-center justify-between w-full px-3 py-3 text-stone-600 hover:bg-sage-50 rounded-lg"
               >
-                <span>Como posso ajudar?</span>
+                <span>O que podemos trabalhar no nosso espaço de cuidado?</span>
                 <ChevronDown className={`w-4 h-4 transform transition-transform ${isServicesOpen ? 'rotate-180' : ''}`} />
               </button>
               {isServicesOpen && (
@@ -137,7 +131,6 @@ const Header: React.FC<HeaderProps> = ({ currentView, onChangeView, onSelectServ
             </div>
 
             <button onClick={() => handleNav('faq')} className="block w-full text-left px-3 py-3 text-stone-600 hover:bg-sage-50 rounded-lg">Dúvidas Frequentes</button>
-            <button onClick={() => handleNav('office')} className="block w-full text-left px-3 py-3 text-stone-600 hover:bg-sage-50 rounded-lg">Consultório</button>
             <button onClick={() => handleNav('contact')} className="block w-full text-left px-3 py-3 text-sage-700 font-semibold bg-sage-50 rounded-lg mt-4">Agendar Sessão</button>
           </div>
         </div>

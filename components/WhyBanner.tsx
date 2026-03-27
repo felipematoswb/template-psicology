@@ -28,7 +28,7 @@ const WhyBanner: React.FC<WhyBannerProps> = ({ onSchedule }) => {
           onClick={onSchedule}
           className="bg-sage-600 hover:bg-sage-500 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
         >
-          Quero Agendar Minha Sessão
+          Quero iniciar minha jornada
         </button>
       </div>
     </section>

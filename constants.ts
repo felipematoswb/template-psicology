@@ -8,10 +8,10 @@ export const SERVICES: ServiceData[] = [
     iconName: 'Brain',
     image: '/img1.jpeg',
     fullContent: [
-      'A psicoterapia individual é um processo colaborativo entre o psicólogo e o paciente, destinado a promover o autoconhecimento e a saúde mental. Neste espaço seguro e livre de julgamentos, trabalhamos juntos para compreender as raízes de seus comportamentos, emoções e pensamentos. É um momento dedicado exclusivamente a você, onde suas angústias podem ser acolhidas e transformadas em ferramentas de crescimento.',
-      'Durante as sessões, utilizamos abordagens baseadas em evidências para identificar padrões que podem estar limitando seu potencial ou causando sofrimento. Não se trata apenas de resolver problemas imediatos, mas de desenvolver uma estrutura emocional resiliente que permita enfrentar os desafios futuros com mais clareza e autonomia. O objetivo é que você se torne o protagonista da sua própria história.',
-      'A terapia é indicada para qualquer pessoa, não apenas para quem enfrenta transtornos mentais graves. Ela é extremamente benéfica para quem busca entender melhor a si mesmo, melhorar sua qualidade de vida ou atravessar momentos de transição, como luto, mudanças de carreira ou separações. Cada sessão é um passo em direção a uma vida mais autêntica e alinhada com seus valores pessoais.',
-      'Ao longo do processo terapêutico, você perceberá mudanças graduais na forma como se relaciona consigo mesmo e com o mundo. A psicoterapia oferece o suporte necessário para que você possa ressignificar experiências passadas, viver o presente com mais plenitude e construir um futuro com mais esperança e propósito.'
+      'A psicoterapia individual é um processo colaborativo, fundamentado no compromisso ético e no respeito absoluto à singularidade de cada história. Destinado a promover o autoconhecimento e a saúde mental, este é um espaço seguro e livre de julgamentos. Aqui, trabalhamos juntos para compreender as raízes de seus comportamentos, emoções e pensamentos, analisando de que forma os determinantes culturais, as questões raciais e as desigualdades sociais atravessam e influenciam a sua construção como sujeito.',
+      'Durante as sessões, utilizamos abordagens fundamentadas para identificar padrões que podem estar limitando seu potencial ou gerando sofrimento. Minha atuação parte do princípio de que o indivíduo não existe no vácuo; por isso, olhamos para além do consultório para entender como as pressões externas e o contexto social moldam a sua psique. O objetivo é desenvolver uma estrutura emocional resiliente que permita enfrentar desafios com clareza, autonomia e a consciência necessária para que você se torne o protagonista consciente da sua própria história.',
+      'A terapia é indicada para qualquer pessoa que sinta o desejo de aprofundar seu olhar sobre si mesma. Ela é extremamente benéfica para quem busca entender como sua identidade foi forjada em meio às dinâmicas da sociedade, integrando sua história pessoal com as realidades que a cercam. Seja em momentos de transição, luto ou busca por sentido, cada sessão é um passo em direção a uma vida mais autêntica, alinhada com seus valores e com o reconhecimento da sua dignidade.',
+      'Ao longo do processo terapêutico, você perceberá mudanças graduais na forma como se relaciona consigo mesmo e com o coletivo. A psicoterapia oferece o suporte ético necessário para que você possa ressignificar experiências passadas, considerando todos os atravessamentos que te trouxeram até aqui, para viver o presente com mais plenitude e construir um futuro com mais esperança e propósito social.'
     ]
   },
   {
@@ -47,10 +47,10 @@ export const SERVICES: ServiceData[] = [
     iconName: 'Heart',
     image: '/img1.jpeg',
     fullContent: [
-      'A autoestima é o sistema imunológico da nossa consciência; é a forma como nos vemos, nos avaliamos e nos tratamos. Quando ela está fragilizada, tudo parece mais difícil, e as críticas externas (e internas) ganham um peso desproporcional. A terapia trabalha na reconstrução dessa autoimagem, promovendo um olhar mais gentil e realista sobre si mesmo.',
-      'Muitas questões de autoestima têm raízes profundas na infância ou em experiências passadas de rejeição e fracasso. No consultório, revisitamos essas narrativas para curar feridas antigas e construir uma nova identidade baseada em suas forças e virtudes reais, não apenas em suas falhas ou na opinião alheia.',
-      'Trabalhamos também o autoperdão e a autocompaixão. Aprender a aceitar suas imperfeições é parte fundamental do crescimento humano. Uma autoestima saudável não significa se achar perfeito, mas sim reconhecer seu valor intrínseco independentemente dos erros ou das circunstâncias externas. É sobre ser seu próprio melhor amigo.',
-      'Ao fortalecer sua autoestima, você notará melhorias em todas as áreas da vida: seus relacionamentos se tornam mais equilibrados, sua carreira flui com mais confiança e sua saúde mental se estabiliza. O objetivo é que você se sinta merecedor de felicidade e capaz de ocupar o seu lugar no mundo.'
+      'A autoestima é o sistema imunológico da nossa consciência; é a forma como nos vemos, nos avaliamos e nos tratamos. No entanto, em uma sociedade atravessada por desigualdades sociais e pelo racismo estrutural, essa autoimagem nem sempre é construída de forma justa. Muitas vezes, o mundo nos envia mensagens de que não pertencemos ou de que não somos "o padrão". Por isso, a terapia trabalha na reconstrução desse olhar, promovendo uma visão gentil e realista que distingue o que é seu e o que é um peso imposto por uma estrutura excludente.',
+      'Muitas questões de autoestima têm raízes profundas na infância ou em experiências passadas de rejeição, mas também na falta de representatividade e nos estigmas sociais. No consultório, revisitamos essas narrativas para entender como a opressão e o preconceito podem ter ferido a sua percepção de valor. Curar essas feridas envolve construir uma nova identidade baseada em suas forças reais, reivindicando sua história e sua beleza diante de um mundo que muitas vezes tentou invisibilizá-las.',
+      'Trabalhamos também o autoperdão e a autocompaixão como ferramentas de emancipação. Aprender a aceitar suas imperfeições é parte do crescimento, mas reconhecer seu valor intrínseco independentemente das circunstâncias externas ou do seu lugar na hierarquia social é um ato de resistência. Uma autoestima saudável não significa se achar perfeito, mas sim entender que você tem o direito inalienável de ser respeitado e de se amar, apesar das pressões por uma perfeição que ignora a realidade das desigualdades.',
+      'Ao fortalecer sua autoestima sob essa perspectiva ampla, você notará melhorias em todas as áreas da vida: seus relacionamentos se tornam mais equilibrados, sua carreira flui com mais confiança e sua saúde mental se estabiliza. O objetivo é que você não apenas se sinta merecedor de felicidade, mas que se sinta potente para ocupar o seu lugar de direito no mundo, com a consciência de que sua existência é valiosa e sua trajetória, potente.'
     ]
   },
   {
@@ -60,42 +60,24 @@ export const SERVICES: ServiceData[] = [
     iconName: 'Utensils',
     image: '/img2.jpeg',
     fullContent: [
-      'Os transtornos alimentares são condições complexas que envolvem a relação com a comida e a imagem corporal. O tratamento psicológico é essencial para quebrar o ciclo de compulsão, restrição ou purgação, oferecendo um espaço de escuta livre de julgamentos sobre o corpo e a alimentação.',
-      'Nossa abordagem busca entender as funções emocionais que a comida desempenha na sua vida. Muitas vezes, o comportamento alimentar é apenas a ponta do iceberg de questões emocionais mais profundas, como necessidade de controle, ansiedade ou traumas. Trabalhamos para dissociar o valor pessoal da forma física.',
-      'A recuperação envolve reaprender a ouvir os sinais do próprio corpo, respeitando a fome e a saciedade de forma intuitiva. É um processo de reconciliação com o espelho e com a nutrição, onde o foco deixa de ser a estética ou o número na balança e passa a ser a saúde integral e o bem-estar.',
-      'Com paciência e suporte profissional, é possível reconstruir uma relação de paz com a comida. O objetivo final é a liberdade: poder participar de momentos sociais, jantares e celebrações sem culpa ou medo, vivendo uma vida plena onde a comida ocupa seu devido lugar — o de nutrir e dar prazer, não o de punir.'
+      'A relação com a comida e com o corpo é, muitas vezes, atravessada por um sofrimento silencioso que vai muito além do que está no prato. Entendo os transtornos alimentares como fenômenos complexos, moldados por uma cultura que exerce um controle rígido e frequentemente adoece nossa percepção corporal. Sob a ótica da Psicologia Social Crítica, meu trabalho propõe um olhar atento para como as pressões externas, o preconceito estrutural contra os corpos e os padrões inalcançáveis influenciam sua identidade e geram sofrimento, retirando o peso da culpa individual e compreendendo o sintoma dentro do seu contexto de vida.',
+      'Minha prática clínica é fundamentada nas Terapias Contextuais, onde busco compreender a função que comportamentos de restrição, compulsão ou purgação exercem na sua rotina. Frequentemente, essas atitudes surgem como estratégias de regulação emocional para lidar com dores, ansiedades ou traumas que parecem insuportáveis. O foco do meu acompanhamento é desenvolver a sua flexibilidade psicológica, permitindo que você aprenda novas formas de vivenciar suas emoções sem precisar transformar seu corpo em um campo de batalha ou em uma moeda de troca.',
+      'O objetivo central do meu processo psicoterapêutico é a sua liberdade. Busco auxiliar você a resgatar a autonomia sobre suas escolhas e a sintonização com os sinais do seu próprio corpo, para que momentos de celebração e convívio social deixem de ser fonte de medo. Através de um espaço de escuta ético e técnico, trabalharemos para que a comida retome seu lugar de nutrição e prazer, permitindo que você deixe de focar em números e passe a investir em uma vida plena e com significado. Se você busca reconstruir essa relação de paz, estou aqui para acompanhar você nesse percurso.'
     ]
   },
-  {
-    id: 'relacionamentos',
-    title: 'Relacionamentos',
-    shortDescription: 'Melhore sua comunicação e construa vínculos mais saudáveis e satisfatórios.',
-    iconName: 'Users',
-    image: '/img3.jpeg',
-    fullContent: [
-      'Nossos relacionamentos são espelhos de nosso mundo interno e fontes fundamentais de felicidade ou angústia. A terapia focada em relacionamentos ajuda a identificar padrões de comportamento repetitivos que podem estar gerando conflitos, distanciamento ou dependência emocional com parceiros, familiares ou amigos.',
-      'A comunicação é a chave para qualquer vínculo saudável. No processo terapêutico, desenvolvemos habilidades de assertividade e escuta ativa, permitindo que você expresse suas necessidades e limites de forma clara e respeitosa, ao mesmo tempo em que compreende o universo do outro sem perder a si mesmo.',
-      'Seja para superar um término, resolver conflitos conjugais ou melhorar a dinâmica familiar, a psicologia oferece ferramentas para navegar a complexidade das interações humanas. Analisamos as expectativas, os papéis assumidos e as dinâmicas de poder, buscando sempre relações baseadas na reciprocidade e no respeito mútuo.',
-      'Investir na saúde dos seus relacionamentos é investir na sua própria saúde mental. Ao aprender a construir vínculos seguros e nutritivos, você cria uma rede de apoio sólida para a vida. O objetivo é cultivar amores e amizades que impulsionem seu crescimento, trazendo leveza e companheirismo para a sua jornada.'
-    ]
-  }
 ];
 
 export const FAQS: FaqItem[] = [
   {
     question: "Como funcionam as sessões?",
-    answer: "As sessões têm duração de 50 minutos e ocorrem semanalmente. É um espaço sigiloso onde você pode falar livremente sobre suas questões."
+    answer: "Os atendimentos são 100% online. Normalmente, as sessões têm duração de 50 minutos, mas há possibilidade de adaptações no horário e frequência a depender da avaliação clínica de cada paciente."
   },
   {
     question: "Aceita convênio?",
-    answer: "Trabalho através de reembolso. Você paga a sessão particular e emito o recibo para que solicite o reembolso junto ao seu convênio."
-  },
-  {
-    question: "Qual a abordagem utilizada?",
-    answer: "Utilizo a Terapia Cognitivo-Comportamental (TCC) e a Psicanálise, adaptando as técnicas conforme a necessidade de cada paciente."
+    answer: "Há a possibilidade de atendimento com reembolso pelo plano. Você paga a sessão particular e emito o recibo para que solicite o reembolso diretamente com o seu convênio médico."
   },
   {
     question: "Como agendar uma consulta?",
-    answer: "Você pode agendar entrando em contato pelo WhatsApp, telefone ou preenchendo o formulário de contato aqui no site."
+    answer: "Você pode agendar entrando em contato pelo WhatsApp."
   }
 ];

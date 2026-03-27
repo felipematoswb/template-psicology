@@ -60,7 +60,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ service, onBack, onSchedu
                         onClick={onSchedule}
                         className="bg-sage-600 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-sage-700 transition-all shadow-md hover:shadow-lg"
                     >
-                        Agendar atendimento para {service.title}
+                        Quero iniciar minha jornada
                     </button>
                 </div>
             </div>

@@ -32,34 +32,36 @@ const Header: React.FC<HeaderProps> = ({ currentView, onChangeView, onSelectServ
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div 
-            className="flex-shrink-0 cursor-pointer flex items-center gap-2"
+          <div
+            className="flex-shrink-0 cursor-pointer flex items-center gap-3"
             onClick={() => handleNav('home')}
           >
-            <div className="w-8 h-8 bg-sage-500 rounded-full flex items-center justify-center text-white font-serif italic text-xl">P</div>
-            <span className="font-serif text-2xl text-stone-700 tracking-wide">
-              Psicologia<span className="text-sage-600">Serena</span>
-            </span>
+            <div className="w-8 h-8 bg-sage-500 rounded-full flex items-center justify-center text-white font-serif italic text-xl flex-shrink-0">P</div>
+            <div className="flex flex-col md:flex-row md:items-baseline md:gap-2">
+              <span className="font-serif text-lg md:text-xl text-stone-700 tracking-wide whitespace-nowrap">
+                Psicóloga <span className="text-sage-600 font-semibold">Gabriely Feitosa</span>
+              </span>
+            </div>
           </div>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-8 items-center">
-            <button 
-              onClick={() => handleNav('home')} 
+            <button
+              onClick={() => handleNav('home')}
               className={`${currentView === 'home' ? 'text-sage-600 font-semibold' : 'text-stone-500'} hover:text-sage-600 transition-colors`}
             >
               Início
             </button>
-            <button 
-              onClick={() => handleNav('about')} 
+            <button
+              onClick={() => handleNav('about')}
               className={`${currentView === 'about' ? 'text-sage-600 font-semibold' : 'text-stone-500'} hover:text-sage-600 transition-colors`}
             >
               Sobre Mim
             </button>
-            
+
             {/* Dropdown for Services */}
             <div className="relative group">
-              <button 
+              <button
                 className={`flex items-center gap-1 ${currentView === 'service-detail' ? 'text-sage-600 font-semibold' : 'text-stone-500'} hover:text-sage-600 transition-colors group-hover:text-sage-600`}
               >
                 O que podemos trabalhar no nosso espaço de cuidado? <ChevronDown className="w-4 h-4" />
@@ -77,14 +79,14 @@ const Header: React.FC<HeaderProps> = ({ currentView, onChangeView, onSelectServ
               </div>
             </div>
 
-            <button 
-              onClick={() => handleNav('faq')} 
+            <button
+              onClick={() => handleNav('faq')}
               className={`${currentView === 'faq' ? 'text-sage-600 font-semibold' : 'text-stone-500'} hover:text-sage-600 transition-colors`}
             >
               Dúvidas
             </button>
-            <button 
-              onClick={() => handleNav('contact')} 
+            <button
+              onClick={() => handleNav('contact')}
               className="bg-sage-600 text-white px-5 py-2.5 rounded-full hover:bg-sage-700 transition-all shadow-sm hover:shadow-md"
             >
               Agendar Sessão
@@ -106,9 +108,9 @@ const Header: React.FC<HeaderProps> = ({ currentView, onChangeView, onSelectServ
           <div className="px-4 pt-2 pb-6 space-y-2">
             <button onClick={() => handleNav('home')} className="block w-full text-left px-3 py-3 text-stone-600 hover:bg-sage-50 rounded-lg">Início</button>
             <button onClick={() => handleNav('about')} className="block w-full text-left px-3 py-3 text-stone-600 hover:bg-sage-50 rounded-lg">Sobre Mim</button>
-            
+
             <div className="space-y-1">
-              <button 
+              <button
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
                 className="flex items-center justify-between w-full px-3 py-3 text-stone-600 hover:bg-sage-50 rounded-lg"
               >

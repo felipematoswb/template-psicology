@@ -34,7 +34,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigateToAbout }) => {
                 </div>
               </div>
               <p className="text-stone-600 text-sm mb-4 leading-relaxed">
-                Psicóloga especializada em transtornos alimentares e saúde mental, com uma abordagem fundamentada nas Terapias Contextuais e na Psicologia Social Crítica. Aqui para te acompanhar no resgate da sua liberdade.
+                Psicóloga graduada pela UFRJ, com prática clínica fundamentada no compromisso ético e no cuidado profundo com as singularidades de cada sujeito. Ofereço um espaço de escuta qualificada e acolhimento.
               </p>
               <button 
                 onClick={onNavigateToAbout}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Phone, Instagram } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '5599999999999';
+const WHATSAPP_NUMBER = '5521975313493';
 const WHATSAPP_MESSAGE = encodeURIComponent('Olá, Gabriely! Gostaria de iniciar minha jornada terapêutica.');
 
 const Contact: React.FC = () => {
@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
             </div>
             <div className="text-center">
               <h3 className="font-serif text-2xl text-stone-800 mb-1">WhatsApp</h3>
-              <p className="text-stone-600">+55 99999-99999</p>
+              <p className="text-stone-600">+55 21 97531-3493</p>
               <p className="text-sm text-sage-600 font-semibold mt-3">Quero iniciar minha jornada →</p>
             </div>
           </a>

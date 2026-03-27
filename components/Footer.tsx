@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="border-t border-stone-800 mt-12 pt-8 text-center text-xs">
-          &copy; {new Date().getFullYear()} Psicologia Serena. Todos os direitos reservados.
+          &copy; {new Date().getFullYear()} Psicóloga Gabriely Feitosa | CRP 05/83811. Todos os direitos reservados.
         </div>
       </div>
     </footer>
